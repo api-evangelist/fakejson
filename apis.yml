@@ -1,0 +1,32 @@
+aid: fakejson
+name: FakeJSON
+description: "Service to generate test and fake data"
+url: https://fakejson.com
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Test Data"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Test Data
+  - Public APIs
+apis:
+  - name: FakeJSON
+    description: "Service to generate test and fake data"
+    humanURL: https://fakejson.com
+    baseURL: https://fakejson.com
+    tags:
+      - Test Data
+    properties:
+      - type: Documentation
+        url: https://fakejson.com
+common:
+  - type: Website
+    url: https://fakejson.com
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
