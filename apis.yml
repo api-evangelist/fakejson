@@ -41,7 +41,6 @@ apis:
   - name: FakeJSON
     description: "Service to generate test and fake data"
     humanURL: https://fakejson.com
-    baseURL: https://fakejson.com
     tags:
       - Test Data
     properties:
